@@ -9,6 +9,9 @@ jobs:
   terraform:
     runs-on: ubuntu-latest
 
+    env:
+        TF_VAR_alert_email: fathimayosra25@gmail.com
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -24,10 +27,10 @@ jobs:
         uses: hashicorp/setup-terraform@v3
 
       - name: Terraform Init
-        run: terraform init
+        run: terraform init -input=false
 
       - name: Terraform Plan
-        run: terraform plan
+        run: terraform plan -input=false 
 
       - name: Terraform Apply
-        run: terraform apply -auto-approve
+        run: terraform apply -auto-approve -input=false
