@@ -14,9 +14,8 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-       env:
-          TF_VAR_key_name: terraform-key
-          TF_VAR_alert_email: fathimayosra25@gmail.com
+        TF_VAR_key_name: terraform-key
+        TF_VAR_alert_email: fathimayosra25@gmail.com
 
     steps:
       - name: Checkout code
