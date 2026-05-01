@@ -22,6 +22,10 @@ resource "aws_launch_template" "lt" {
               yum install -y httpd
 
 
+              # Install CloudWatch Agent
+              yum install -y amazon-cloudwatch-agent
+
+
               systemctl start httpd
               systemctl enable httpd
               
