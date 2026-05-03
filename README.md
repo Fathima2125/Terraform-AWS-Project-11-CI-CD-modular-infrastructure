@@ -54,6 +54,7 @@ It follows real-world DevOps best practices including:
 
 ## 📁 Project Structure
 
+````
 .
 ├── main.tf
 ├── provider.tf
@@ -71,6 +72,8 @@ It follows real-world DevOps best practices including:
 └── .github/
     └── workflows/
         └── terraform.yml
+
+````
 
 
 ## 🔄 CI/CD Pipeline
