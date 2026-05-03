@@ -177,6 +177,16 @@ This project now includes a full CloudWatch Observability Layer:
 ![](<screenshots/Terminal output-Terraform apply.png>)
 
 
+## Challenges Faced
+
+* Resolved Terraform state locking conflicts
+* Debugged GitHub Actions deployment failures
+* Fixed IAM permission issues for CI/CD pipeline
+* Configured proper ALB and target group health checks
+* Solved Terraform module dependency issues
+* Managed remote backend configuration for collaborative workflows
+
+
 
 ## 🧠 Key Learnings
 
@@ -229,10 +239,10 @@ terraform apply
 
 ### Fathima Yosra
 
-AWS Cloud & Devops Engineer
+AWS Cloud & DevOps Engineer
 
 Focused on AWS, Terraform, and CI/CD automation.
 
 ⭐ If you like this project
 
-Give it a ⭐ on GitHub and follow for more DevOps projects.##
+Give it a ⭐ on GitHub and follow for more DevOps projects.
