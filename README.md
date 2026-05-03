@@ -215,17 +215,24 @@ This project simulates a real-world production cloud environment, enabling:
 ## 📌 How to Use
 
 ### Clone repository
+````
 git clone <repo-url>
+````
 
 ### Initialize Terraform
+````
 terraform init
+````
 
 ### Plan infrastructure
+````
 terraform plan
+````
 
 ### Apply infrastructure
+````
 terraform apply
-
+````
 
 ## 💡 Future Improvements
 
